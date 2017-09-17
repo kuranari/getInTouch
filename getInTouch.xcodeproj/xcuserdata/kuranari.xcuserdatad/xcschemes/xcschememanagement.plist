@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>getInTouchWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>getInTouchWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>18C7A4CA1F6D32DA00C9A5CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18C7A4DE1F6D336200C9A5CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="getInTouchWatch" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="今日はどうしますか" id="Y6e-UO-07r"/>
+                        <table alignment="left" id="iOh-Qe-bxT">
+                            <items>
+                                <tableRow identifier="TableRowController" id="5ZP-AZ-xt8" customClass="TableRowController" customModule="getInTouchWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="yCf-uS-3tm">
+                                        <items>
+                                            <label width="1" height="1" alignment="center" verticalAlignment="center" text="アクション" textAlignment="center" id="DKG-8R-3MQ"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="DKG-8R-3MQ" id="DGG-Qw-dxN"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myLabel" destination="Y6e-UO-07r" id="1uW-gG-Joy"/>
+                        <outlet property="tableView" destination="iOh-Qe-bxT" id="Xgn-K0-QxA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="338"/>
+        </scene>
+        <!--reasonController-->
+        <scene sceneID="T60-ie-hNP">
+            <objects>
+                <controller identifier="reasonController" id="kTp-8L-g2f" customClass="ReasonsController" customModule="getInTouchWatch_Extension">
+                    <items>
+                        <label alignment="left" text="理由はなんですか" id="45e-u2-gzU"/>
+                        <table alignment="left" id="FZf-90-6Ko">
+                            <items>
+                                <tableRow identifier="ReasonRowController" id="qCe-Au-HPO" customClass="ReasonRowController" customModule="getInTouchWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="1o1-MJ-Td0">
+                                        <items>
+                                            <label width="1" height="1" alignment="center" verticalAlignment="center" text="理由" textAlignment="center" id="dfw-Si-G9f"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="dfw-Si-G9f" id="KVb-1H-iGa"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="FZf-90-6Ko" id="Rnq-qG-LIw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="467" y="337"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="3gJ-V4-4bl">
+            <objects>
+                <controller id="sbd-NE-rQz" customClass="InterfaceController" customModule="getInTouchWatch_Extension">
+                    <items>
+                        <label alignment="left" text="以下の内容で送信します。" numberOfLines="3" id="TyW-tO-gUW"/>
+                        <separator alignment="left" id="u8Y-Tl-b1f"/>
+                        <label alignment="left" numberOfLines="100" id="l2u-j1-lOt">
+                            <string key="text">お世話になっております。
+
+本日体調不良のため、全休とさせていただけますと幸いです。
+
+ご迷惑をおかけいたしますが、何卒よろしくお願いいたします。</string>
+                        </label>
+                        <button width="1" alignment="left" title="送信" id="Rod-kz-JK4"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="722" y="337"/>
+        </scene>
+    </scenes>
+</document>

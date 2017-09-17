@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183036ED1F6E72E90010C0EB /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036EC1F6E72E90010C0EB /* TableRowController.swift */; };
+		183036EF1F6E8D1A0010C0EB /* ReasonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036EE1F6E8D1A0010C0EB /* ReasonsController.swift */; };
+		183036F11F6E8FE30010C0EB /* ReasonRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036F01F6E8FE30010C0EB /* ReasonRowController.swift */; };
 		18C7A4B01F6D32DA00C9A5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4AF1F6D32DA00C9A5CC /* AppDelegate.swift */; };
 		18C7A4B21F6D32DA00C9A5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4B11F6D32DA00C9A5CC /* ViewController.swift */; };
 		18C7A4B51F6D32DA00C9A5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7A4B31F6D32DA00C9A5CC /* Main.storyboard */; };
@@ -14,6 +17,14 @@
 		18C7A4BA1F6D32DA00C9A5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7A4B81F6D32DA00C9A5CC /* LaunchScreen.storyboard */; };
 		18C7A4C51F6D32DA00C9A5CC /* getInTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4C41F6D32DA00C9A5CC /* getInTouchTests.swift */; };
 		18C7A4D01F6D32DA00C9A5CC /* getInTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4CF1F6D32DA00C9A5CC /* getInTouchUITests.swift */; };
+		18C7A4E31F6D336200C9A5CC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7A4E11F6D336200C9A5CC /* Interface.storyboard */; };
+		18C7A4E51F6D336200C9A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7A4E41F6D336200C9A5CC /* Assets.xcassets */; };
+		18C7A4EC1F6D336300C9A5CC /* getInTouchWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18C7A4EB1F6D336300C9A5CC /* getInTouchWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18C7A4F31F6D336300C9A5CC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4F21F6D336300C9A5CC /* InterfaceController.swift */; };
+		18C7A4F51F6D336300C9A5CC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4F41F6D336300C9A5CC /* ExtensionDelegate.swift */; };
+		18C7A4F71F6D336300C9A5CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4F61F6D336300C9A5CC /* NotificationController.swift */; };
+		18C7A4F91F6D336300C9A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7A4F81F6D336300C9A5CC /* Assets.xcassets */; };
+		18C7A4FD1F6D336300C9A5CC /* getInTouchWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 18C7A4DF1F6D336200C9A5CC /* getInTouchWatch.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +42,51 @@
 			remoteGlobalIDString = 18C7A4AB1F6D32DA00C9A5CC;
 			remoteInfo = getInTouch;
 		};
+		18C7A4ED1F6D336300C9A5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C7A4A41F6D32DA00C9A5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C7A4EA1F6D336300C9A5CC;
+			remoteInfo = "getInTouchWatch Extension";
+		};
+		18C7A4FB1F6D336300C9A5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C7A4A41F6D32DA00C9A5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C7A4DE1F6D336200C9A5CC;
+			remoteInfo = getInTouchWatch;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		18C7A5011F6D336300C9A5CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18C7A4EC1F6D336300C9A5CC /* getInTouchWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7A5051F6D336300C9A5CC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				18C7A4FD1F6D336300C9A5CC /* getInTouchWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		183036EC1F6E72E90010C0EB /* TableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
+		183036EE1F6E8D1A0010C0EB /* ReasonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReasonsController.swift; sourceTree = "<group>"; };
+		183036F01F6E8FE30010C0EB /* ReasonRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReasonRowController.swift; sourceTree = "<group>"; };
 		18C7A4AC1F6D32DA00C9A5CC /* getInTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getInTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7A4AF1F6D32DA00C9A5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C7A4B11F6D32DA00C9A5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +100,18 @@
 		18C7A4CB1F6D32DA00C9A5CC /* getInTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getInTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7A4CF1F6D32DA00C9A5CC /* getInTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getInTouchUITests.swift; sourceTree = "<group>"; };
 		18C7A4D11F6D32DA00C9A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C7A4DF1F6D336200C9A5CC /* getInTouchWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getInTouchWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C7A4E21F6D336200C9A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		18C7A4E41F6D336200C9A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C7A4E61F6D336200C9A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C7A4EB1F6D336300C9A5CC /* getInTouchWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "getInTouchWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C7A4F11F6D336300C9A5CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		18C7A4F21F6D336300C9A5CC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		18C7A4F41F6D336300C9A5CC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		18C7A4F61F6D336300C9A5CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		18C7A4F81F6D336300C9A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C7A4FA1F6D336300C9A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C7A5061F6D366E00C9A5CC /* getInTouchWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "getInTouchWatch Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +136,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18C7A4E81F6D336300C9A5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +152,8 @@
 				18C7A4AE1F6D32DA00C9A5CC /* getInTouch */,
 				18C7A4C31F6D32DA00C9A5CC /* getInTouchTests */,
 				18C7A4CE1F6D32DA00C9A5CC /* getInTouchUITests */,
+				18C7A4E01F6D336200C9A5CC /* getInTouchWatch */,
+				18C7A4EF1F6D336300C9A5CC /* getInTouchWatch Extension */,
 				18C7A4AD1F6D32DA00C9A5CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +164,8 @@
 				18C7A4AC1F6D32DA00C9A5CC /* getInTouch.app */,
 				18C7A4C01F6D32DA00C9A5CC /* getInTouchTests.xctest */,
 				18C7A4CB1F6D32DA00C9A5CC /* getInTouchUITests.xctest */,
+				18C7A4DF1F6D336200C9A5CC /* getInTouchWatch.app */,
+				18C7A4EB1F6D336300C9A5CC /* getInTouchWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +201,41 @@
 			path = getInTouchUITests;
 			sourceTree = "<group>";
 		};
+		18C7A4E01F6D336200C9A5CC /* getInTouchWatch */ = {
+			isa = PBXGroup;
+			children = (
+				18C7A4E11F6D336200C9A5CC /* Interface.storyboard */,
+				18C7A4E41F6D336200C9A5CC /* Assets.xcassets */,
+				18C7A4E61F6D336200C9A5CC /* Info.plist */,
+			);
+			path = getInTouchWatch;
+			sourceTree = "<group>";
+		};
+		18C7A4EF1F6D336300C9A5CC /* getInTouchWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18C7A5061F6D366E00C9A5CC /* getInTouchWatch Extension.entitlements */,
+				18C7A4F21F6D336300C9A5CC /* InterfaceController.swift */,
+				183036EE1F6E8D1A0010C0EB /* ReasonsController.swift */,
+				18C7A4F41F6D336300C9A5CC /* ExtensionDelegate.swift */,
+				18C7A4F61F6D336300C9A5CC /* NotificationController.swift */,
+				18C7A4F81F6D336300C9A5CC /* Assets.xcassets */,
+				18C7A4FA1F6D336300C9A5CC /* Info.plist */,
+				18C7A4F01F6D336300C9A5CC /* Supporting Files */,
+				183036EC1F6E72E90010C0EB /* TableRowController.swift */,
+				183036F01F6E8FE30010C0EB /* ReasonRowController.swift */,
+			);
+			path = "getInTouchWatch Extension";
+			sourceTree = "<group>";
+		};
+		18C7A4F01F6D336300C9A5CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C7A4F11F6D336300C9A5CC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +246,12 @@
 				18C7A4A81F6D32DA00C9A5CC /* Sources */,
 				18C7A4A91F6D32DA00C9A5CC /* Frameworks */,
 				18C7A4AA1F6D32DA00C9A5CC /* Resources */,
+				18C7A5051F6D336300C9A5CC /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18C7A4FC1F6D336300C9A5CC /* PBXTargetDependency */,
 			);
 			name = getInTouch;
 			productName = getInTouch;
@@ -181,6 +294,40 @@
 			productReference = 18C7A4CB1F6D32DA00C9A5CC /* getInTouchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		18C7A4DE1F6D336200C9A5CC /* getInTouchWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C7A5021F6D336300C9A5CC /* Build configuration list for PBXNativeTarget "getInTouchWatch" */;
+			buildPhases = (
+				18C7A4DD1F6D336200C9A5CC /* Resources */,
+				18C7A5011F6D336300C9A5CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C7A4EE1F6D336300C9A5CC /* PBXTargetDependency */,
+			);
+			name = getInTouchWatch;
+			productName = getInTouchWatch;
+			productReference = 18C7A4DF1F6D336200C9A5CC /* getInTouchWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		18C7A4EA1F6D336300C9A5CC /* getInTouchWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C7A4FE1F6D336300C9A5CC /* Build configuration list for PBXNativeTarget "getInTouchWatch Extension" */;
+			buildPhases = (
+				18C7A4E71F6D336300C9A5CC /* Sources */,
+				18C7A4E81F6D336300C9A5CC /* Frameworks */,
+				18C7A4E91F6D336300C9A5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "getInTouchWatch Extension";
+			productName = "getInTouchWatch Extension";
+			productReference = 18C7A4EB1F6D336300C9A5CC /* getInTouchWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +355,21 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 18C7A4AB1F6D32DA00C9A5CC;
 					};
+					18C7A4DE1F6D336200C9A5CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y45MC9H34F;
+						ProvisioningStyle = Automatic;
+					};
+					18C7A4EA1F6D336300C9A5CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y45MC9H34F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = 18C7A4A71F6D32DA00C9A5CC /* Build configuration list for PBXProject "getInTouch" */;
@@ -226,6 +388,8 @@
 				18C7A4AB1F6D32DA00C9A5CC /* getInTouch */,
 				18C7A4BF1F6D32DA00C9A5CC /* getInTouchTests */,
 				18C7A4CA1F6D32DA00C9A5CC /* getInTouchUITests */,
+				18C7A4DE1F6D336200C9A5CC /* getInTouchWatch */,
+				18C7A4EA1F6D336300C9A5CC /* getInTouchWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +416,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7A4DD1F6D336200C9A5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C7A4E51F6D336200C9A5CC /* Assets.xcassets in Resources */,
+				18C7A4E31F6D336200C9A5CC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7A4E91F6D336300C9A5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C7A4F91F6D336300C9A5CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +464,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18C7A4E71F6D336300C9A5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C7A4F71F6D336300C9A5CC /* NotificationController.swift in Sources */,
+				18C7A4F51F6D336300C9A5CC /* ExtensionDelegate.swift in Sources */,
+				183036F11F6E8FE30010C0EB /* ReasonRowController.swift in Sources */,
+				18C7A4F31F6D336300C9A5CC /* InterfaceController.swift in Sources */,
+				183036ED1F6E72E90010C0EB /* TableRowController.swift in Sources */,
+				183036EF1F6E8D1A0010C0EB /* ReasonsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +489,16 @@
 			isa = PBXTargetDependency;
 			target = 18C7A4AB1F6D32DA00C9A5CC /* getInTouch */;
 			targetProxy = 18C7A4CC1F6D32DA00C9A5CC /* PBXContainerItemProxy */;
+		};
+		18C7A4EE1F6D336300C9A5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C7A4EA1F6D336300C9A5CC /* getInTouchWatch Extension */;
+			targetProxy = 18C7A4ED1F6D336300C9A5CC /* PBXContainerItemProxy */;
+		};
+		18C7A4FC1F6D336300C9A5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C7A4DE1F6D336200C9A5CC /* getInTouchWatch */;
+			targetProxy = 18C7A4FB1F6D336300C9A5CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -313,6 +517,14 @@
 				18C7A4B91F6D32DA00C9A5CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18C7A4E11F6D336200C9A5CC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C7A4E21F6D336200C9A5CC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -495,6 +707,78 @@
 			};
 			name = Release;
 		};
+		18C7A4FF1F6D336300C9A5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "getInTouchWatch Extension/getInTouchWatch Extension.entitlements";
+				DEVELOPMENT_TEAM = Y45MC9H34F;
+				INFOPLIST_FILE = "getInTouchWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kuranari.getInTouch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		18C7A5001F6D336300C9A5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "getInTouchWatch Extension/getInTouchWatch Extension.entitlements";
+				DEVELOPMENT_TEAM = Y45MC9H34F;
+				INFOPLIST_FILE = "getInTouchWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kuranari.getInTouch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		18C7A5031F6D336300C9A5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y45MC9H34F;
+				IBSC_MODULE = getInTouchWatch_Extension;
+				INFOPLIST_FILE = getInTouchWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kuranari.getInTouch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		18C7A5041F6D336300C9A5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y45MC9H34F;
+				IBSC_MODULE = getInTouchWatch_Extension;
+				INFOPLIST_FILE = getInTouchWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kuranari.getInTouch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +798,7 @@
 				18C7A4D61F6D32DA00C9A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C7A4D71F6D32DA00C9A5CC /* Build configuration list for PBXNativeTarget "getInTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +807,7 @@
 				18C7A4D91F6D32DA00C9A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C7A4DA1F6D32DA00C9A5CC /* Build configuration list for PBXNativeTarget "getInTouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +816,25 @@
 				18C7A4DC1F6D32DA00C9A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C7A4FE1F6D336300C9A5CC /* Build configuration list for PBXNativeTarget "getInTouchWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C7A4FF1F6D336300C9A5CC /* Debug */,
+				18C7A5001F6D336300C9A5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C7A5021F6D336300C9A5CC /* Build configuration list for PBXNativeTarget "getInTouchWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C7A5031F6D336300C9A5CC /* Debug */,
+				18C7A5041F6D336300C9A5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

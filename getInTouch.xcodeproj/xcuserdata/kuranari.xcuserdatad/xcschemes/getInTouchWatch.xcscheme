@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "18C7A4DE1F6D336200C9A5CC"
+               BuildableName = "getInTouchWatch.app"
+               BlueprintName = "getInTouchWatch"
+               ReferencedContainer = "container:getInTouch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "18C7A4AB1F6D32DA00C9A5CC"
                BuildableName = "getInTouch.app"
                BlueprintName = "getInTouch"
@@ -28,33 +42,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18C7A4BF1F6D32DA00C9A5CC"
-               BuildableName = "getInTouchTests.xctest"
-               BlueprintName = "getInTouchTests"
-               ReferencedContainer = "container:getInTouch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18C7A4CA1F6D32DA00C9A5CC"
-               BuildableName = "getInTouchUITests.xctest"
-               BlueprintName = "getInTouchUITests"
-               ReferencedContainer = "container:getInTouch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18C7A4AB1F6D32DA00C9A5CC"
-            BuildableName = "getInTouch.app"
-            BlueprintName = "getInTouch"
+            BlueprintIdentifier = "18C7A4DE1F6D336200C9A5CC"
+            BuildableName = "getInTouchWatch.app"
+            BlueprintName = "getInTouchWatch"
             ReferencedContainer = "container:getInTouch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,16 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/getInTouch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18C7A4AB1F6D32DA00C9A5CC"
-            BuildableName = "getInTouch.app"
-            BlueprintName = "getInTouch"
+            BlueprintIdentifier = "18C7A4DE1F6D336200C9A5CC"
+            BuildableName = "getInTouchWatch.app"
+            BlueprintName = "getInTouchWatch"
             ReferencedContainer = "container:getInTouch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "18C7A4DE1F6D336200C9A5CC"
+            BuildableName = "getInTouchWatch.app"
+            BlueprintName = "getInTouchWatch"
+            ReferencedContainer = "container:getInTouch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/getInTouch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18C7A4AB1F6D32DA00C9A5CC"
-            BuildableName = "getInTouch.app"
-            BlueprintName = "getInTouch"
+            BlueprintIdentifier = "18C7A4DE1F6D336200C9A5CC"
+            BuildableName = "getInTouchWatch.app"
+            BlueprintName = "getInTouchWatch"
             ReferencedContainer = "container:getInTouch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "18C7A4DE1F6D336200C9A5CC"
+            BuildableName = "getInTouchWatch.app"
+            BlueprintName = "getInTouchWatch"
+            ReferencedContainer = "container:getInTouch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
