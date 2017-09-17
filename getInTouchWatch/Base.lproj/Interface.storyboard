@@ -22,6 +22,9 @@
                                         <items>
                                             <label width="1" height="1" alignment="center" verticalAlignment="center" text="アクション" textAlignment="center" id="DKG-8R-3MQ"/>
                                         </items>
+                                        <connections>
+                                            <segue destination="kTp-8L-g2f" kind="push" id="l9R-pd-54h"/>
+                                        </connections>
                                     </group>
                                     <connections>
                                         <outlet property="label" destination="DKG-8R-3MQ" id="DGG-Qw-dxN"/>
@@ -51,6 +54,9 @@
                                         <items>
                                             <label width="1" height="1" alignment="center" verticalAlignment="center" text="理由" textAlignment="center" id="dfw-Si-G9f"/>
                                         </items>
+                                        <connections>
+                                            <segue destination="sbd-NE-rQz" kind="push" id="F6C-Yt-cFB"/>
+                                        </connections>
                                     </group>
                                     <connections>
                                         <outlet property="label" destination="dfw-Si-G9f" id="KVb-1H-iGa"/>
@@ -66,22 +72,30 @@
             </objects>
             <point key="canvasLocation" x="467" y="337"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Submit Controller-->
         <scene sceneID="3gJ-V4-4bl">
             <objects>
-                <controller id="sbd-NE-rQz" customClass="InterfaceController" customModule="getInTouchWatch_Extension">
+                <controller id="sbd-NE-rQz" customClass="SubmitController" customModule="getInTouchWatch_Extension">
                     <items>
                         <label alignment="left" text="以下の内容で送信します。" numberOfLines="3" id="TyW-tO-gUW"/>
                         <separator alignment="left" id="u8Y-Tl-b1f"/>
                         <label alignment="left" numberOfLines="100" id="l2u-j1-lOt">
-                            <string key="text">お世話になっております。
+                            <string key="text">お疲れ様です。
 
 本日体調不良のため、全休とさせていただけますと幸いです。
 
 ご迷惑をおかけいたしますが、何卒よろしくお願いいたします。</string>
                         </label>
-                        <button width="1" alignment="left" title="送信" id="Rod-kz-JK4"/>
+                        <label alignment="left" text="Label" id="XVX-bY-jpL"/>
+                        <button width="1" alignment="left" title="送信" id="Rod-kz-JK4">
+                            <connections>
+                                <action selector="onTapButton" destination="sbd-NE-rQz" id="IjI-J7-BC0"/>
+                            </connections>
+                        </button>
                     </items>
+                    <connections>
+                        <outlet property="myLabel" destination="XVX-bY-jpL" id="5YV-bf-SV1"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="722" y="337"/>

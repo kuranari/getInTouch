@@ -10,6 +10,7 @@
 		183036ED1F6E72E90010C0EB /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036EC1F6E72E90010C0EB /* TableRowController.swift */; };
 		183036EF1F6E8D1A0010C0EB /* ReasonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036EE1F6E8D1A0010C0EB /* ReasonsController.swift */; };
 		183036F11F6E8FE30010C0EB /* ReasonRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036F01F6E8FE30010C0EB /* ReasonRowController.swift */; };
+		183036F31F6E965F0010C0EB /* SubmitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183036F21F6E965F0010C0EB /* SubmitController.swift */; };
 		18C7A4B01F6D32DA00C9A5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4AF1F6D32DA00C9A5CC /* AppDelegate.swift */; };
 		18C7A4B21F6D32DA00C9A5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7A4B11F6D32DA00C9A5CC /* ViewController.swift */; };
 		18C7A4B51F6D32DA00C9A5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7A4B31F6D32DA00C9A5CC /* Main.storyboard */; };
@@ -87,6 +88,7 @@
 		183036EC1F6E72E90010C0EB /* TableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
 		183036EE1F6E8D1A0010C0EB /* ReasonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReasonsController.swift; sourceTree = "<group>"; };
 		183036F01F6E8FE30010C0EB /* ReasonRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReasonRowController.swift; sourceTree = "<group>"; };
+		183036F21F6E965F0010C0EB /* SubmitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitController.swift; sourceTree = "<group>"; };
 		18C7A4AC1F6D32DA00C9A5CC /* getInTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getInTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7A4AF1F6D32DA00C9A5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C7A4B11F6D32DA00C9A5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 				18C7A4F21F6D336300C9A5CC /* InterfaceController.swift */,
 				183036EE1F6E8D1A0010C0EB /* ReasonsController.swift */,
 				18C7A4F41F6D336300C9A5CC /* ExtensionDelegate.swift */,
+				183036F21F6E965F0010C0EB /* SubmitController.swift */,
 				18C7A4F61F6D336300C9A5CC /* NotificationController.swift */,
 				18C7A4F81F6D336300C9A5CC /* Assets.xcassets */,
 				18C7A4FA1F6D336300C9A5CC /* Info.plist */,
@@ -472,6 +475,7 @@
 				18C7A4F51F6D336300C9A5CC /* ExtensionDelegate.swift in Sources */,
 				183036F11F6E8FE30010C0EB /* ReasonRowController.swift in Sources */,
 				18C7A4F31F6D336300C9A5CC /* InterfaceController.swift in Sources */,
+				183036F31F6E965F0010C0EB /* SubmitController.swift in Sources */,
 				183036ED1F6E72E90010C0EB /* TableRowController.swift in Sources */,
 				183036EF1F6E8D1A0010C0EB /* ReasonsController.swift in Sources */,
 			);
